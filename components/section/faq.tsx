@@ -85,10 +85,6 @@ const FaqCta = () => {
       <div className="container mx-auto max-w-4xl">
         {/* HEADER SECTION */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-slate-200 text-amber-600 text-xs font-bold uppercase tracking-widest mb-6 shadow-sm">
-            <HelpCircle className="w-3.5 h-3.5" />
-            Support Center
-          </div>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight text-slate-900 mb-6">
             Punya <span className="text-amber-500">Pertanyaan?</span>
           </h2>

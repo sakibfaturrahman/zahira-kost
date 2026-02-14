@@ -109,21 +109,14 @@ const About = () => {
 
           {/* SISI KANAN: KONTEN TEKS */}
           <div className="flex flex-col">
-            <header className="mb-10">
-              <div ref={addToRefs} className="flex items-center gap-3 mb-4">
-                <div className="h-[2px] w-8 bg-[#FFCB61]" />
-                <span className="text-xs font-bold tracking-[0.3em] text-[#FFCB61] uppercase">
-                  Established Excellence
-                </span>
-              </div>
-
+            <header>
               <h2
                 ref={addToRefs}
                 className="text-5xl lg:text-7xl font-bold leading-[1.1] text-slate-900 tracking-tight"
               >
-                Definisi baru <br />
+                Bikin rumah jadi <br />
                 <span className="text-slate-400 font-bold">
-                  kenyamanan urban.
+                  tempat paling nyaman.
                 </span>
               </h2>
             </header>
@@ -132,9 +125,9 @@ const About = () => {
               ref={addToRefs}
               className="text-lg lg:text-xl leading-relaxed text-slate-600 mb-12 max-w-xl"
             >
-              Kami percaya bahwa tempat tinggal bukan sekadar atap untuk
-              berteduh, melainkan ekosistem yang mendukung pertumbuhan dan
-              ketenangan pikiran Anda.
+              Bagi kami, rumah bukan cuma soal bangunan. Ini adalah tempat di
+              mana Anda bisa tenang, beristirahat dengan maksimal, dan memulai
+              hari dengan semangat baru setiap harinya.
             </p>
 
             <div
@@ -143,25 +136,23 @@ const About = () => {
             >
               <div className="group">
                 <h4 className="font-bold text-slate-900 text-lg mb-3 flex items-center gap-2">
-                  Visi Kami
+                  Tujuan Kami
                 </h4>
                 <p className="text-sm text-slate-500 leading-relaxed border-l-2 border-slate-100 pl-4 group-hover:border-[#FFCB61] transition-colors">
-                  Menciptakan standar hunian modern yang mengintegrasikan
-                  privasi premium dengan harmoni sosial.
+                  Menjadi pilihan utama buat siapa saja yang mencari hunian
+                  simpel, modern, dan tetap terasa eksklusif.
                 </p>
               </div>
               <div className="group">
                 <h4 className="font-bold text-slate-900 text-lg mb-3 flex items-center gap-2">
-                  Misi Kami
+                  Cara Kami
                 </h4>
                 <p className="text-sm text-slate-500 leading-relaxed border-l-2 border-slate-100 pl-4 group-hover:border-[#FFCB61] transition-colors">
-                  Memberikan pelayanan personal melalui manajemen properti
-                  berbasis teknologi yang transparan.
+                  Selalu memberikan pelayanan yang jujur dan memudahkan urusan
+                  Anda lewat sistem yang praktis.
                 </p>
               </div>
             </div>
-
-            {/* Button "Eksplorasi Filosofi" telah dihapus */}
           </div>
         </div>
       </div>
